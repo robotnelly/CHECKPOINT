@@ -50,16 +50,43 @@ main section div {
     text-align: center;
 }
 
-#sidebar {
-    padding-top: 2em;
-    padding-bottom: 2em;
-	position:fixed; 
-	height: 100%;
-	width:30%;
-	margin: 0px;  
-    background: white; 
-  
+div#left{
+    background: none !important;
+    grid-area: left;
+    border: none !important;
 }
+
+div.leftnote figure{
+    /*max-width: 30%;*/
+    width: 100px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+div.leftnote figure img{
+    width: 100%;
+}
+
+div.leftnote .info{
+    max-width: 60%;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+div.leftnote div.info h2{
+    font-size: 0.8em;
+    color: #cf142b;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+
+div.leftnote div.info p{
+    font-size: 0.6em;
+    font-weight:bold;
+    color: rgb(103, 103, 103);
+    margin-top: 0px;
+}
+
 
 #copyright {
     background-color: gray;
